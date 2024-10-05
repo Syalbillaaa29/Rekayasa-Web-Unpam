@@ -1,0 +1,82 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.images {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/ggb1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+}
+
+.about .container {
+    padding-top: 70px;
+}
+
+.about .container .heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about .card img {
+    border-radius: 10px;
+}
+
+nav .navbar-brand {
+    font-weight: bold;
+}
+
+nav .navbar-nav {
+    font-weight: bold;
+}
+
+.footer {
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col {
+    width: 30%;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+}
+
+
+
